@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100|Open+Sans');
+
+body {
+  background-color: rgba(105, 76, 51, 0.08);
+  font-family: 'Lato', sans-serif;
+}
+
+.bio {
+  margin-left: 150px;
+  margin-top: 220px;
+  width: 35%;
+}
+
+.contact {
+  margin-left: 150px;
+  font-size: 14px;
+}
+
+.header {
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(25, 24, 24, 0.33);
+  margin-top: 10px;
+}
+
+.email {
+  margin-top: -18px;
+}
+
+.profile-img {
+  background-image: url("profile-img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  width: 350px;
+  margin-left: 650px;
+  margin-top: -270px;
+}
