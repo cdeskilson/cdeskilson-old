@@ -1,13 +1,46 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:100|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400|Open+Sans');
 
 body {
   background-color: rgba(105, 76, 51, 0.08);
   font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+
+.nav-header {
+  font-size: 22px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.navbar-nav {
+  flex-direction: row;
+  margin-left: 90px;
+}
+
+.nav-link {
+  margin-left: 30px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.active {
+  color: rgba(217, 144, 98, 1);
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
 }
 
 .bio {
   margin-left: 150px;
-  margin-top: 220px;
+  margin-top: 170px;
   width: 35%;
 }
 
