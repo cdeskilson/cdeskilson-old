@@ -33,12 +33,12 @@ ul {
 
 li {
   margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: 100;
 }
 
 a {
   color: black;
-  font-size: 14px;
-  font-weight: 100;
   text-decoration: none;
 }
 
