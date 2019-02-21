@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:100,400|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400|Open+Sans:300,400');
 
 body {
   background-color: rgba(105, 76, 51, 0.08);
@@ -27,8 +27,18 @@ body {
   font-weight: 400;
 }
 
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
 a {
   color: black;
+  font-size: 14px;
+  font-weight: 100;
   text-decoration: none;
 }
 
@@ -78,6 +88,7 @@ a:hover {
   font-family: 'Open Sans', sans-serif;
   color: rgba(25, 24, 24, 0.33);
   font-size: 14px;
+  font-weight: 400;
 }
 
 hr {
