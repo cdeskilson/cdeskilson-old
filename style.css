@@ -47,6 +47,10 @@ a:hover {
   text-decoration: none;
 }
 
+p {
+  padding-bottom: 15px;
+}
+
 .bio {
   font-size: 17px;
   margin-left: 150px;
@@ -70,7 +74,7 @@ a:hover {
 }
 
 .profile-img {
-  background-image: url("photo.jpg");
+  background-image: url('photo.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -91,33 +95,52 @@ a:hover {
   font-weight: 400;
 }
 
+.online {
+  margin-bottom: 30px;
+}
+
 hr {
   margin-left: 0px;
 }
 
-@media only screen and (min-width : 320px) and (max-width : 736px) {
+@media only screen and (min-width: 320px) and (max-width: 736px) {
   .nav-header {
     font-size: 30px;
     margin-left: 50px;
     margin-top: 20px;
   }
 
+  .navbar-brand {
+    margin-left: 12px;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    margin-left: 0px;
+  }
+
+  .nav-link {
+    margin-left: 50px;
+    margin-top: 0px;
+    font-size: 16px;
+  }
+
   .bio {
     font-size: 18px;
-    margin-left: 50px;
+    margin: 0 auto;
     margin-top: 350px;
-    width: 80%;
+    margin-bottom: -875px;
+    width: 300px;
   }
 
   .contact {
-    margin-left: 50px;
-    margin-top: 325px;
+    margin-left: 68px;
+    margin-top: 600px;
   }
 
   .profile-img {
     height: 300px;
     width: 300px;
-    margin-left: 50px;
-    margin-top: -600px;
+    margin: 0 auto;
   }
 }
