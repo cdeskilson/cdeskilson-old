@@ -6,6 +6,18 @@ body {
   font-weight: 100;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start;
+  justify-content: flex-start; */
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: row;
+}
+
 .navbar-brand {
   font-size: 24px;
   margin-left: 40px;
@@ -53,13 +65,13 @@ p {
 
 .bio {
   font-size: 17px;
-  margin-left: 150px;
-  margin-top: 110px;
+  /* margin-left: 150px;
+  margin-top: 110px; */
   width: 40%;
 }
 
 .contact {
-  margin-left: 150px;
+  /* margin-left: 150px; */
   font-size: 15px;
 }
 
@@ -82,8 +94,8 @@ p {
   border-width: 0.5px;
   height: 375px;
   width: 375px;
-  margin-left: 730px;
-  margin-top: -645px;
+  /* margin-left: 730px;
+  margin-top: -645px; */
 }
 
 .publications {
@@ -104,6 +116,10 @@ hr {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 736px) {
+  .sub-container {
+    flex-direction: column-reverse;
+  }
+
   .nav-header {
     font-size: 30px;
     margin-left: 50px;
@@ -128,19 +144,19 @@ hr {
   .bio {
     font-size: 18px;
     margin: 0 auto;
-    margin-top: 350px;
-    margin-bottom: -875px;
+    /* margin-top: 350px;
+    margin-bottom: -875px; */
     width: 300px;
   }
 
   .contact {
-    margin-left: 68px;
-    margin-top: 600px;
+    /* margin-left: 68px;
+    margin-top: 600px; */
   }
 
   .profile-img {
     height: 300px;
     width: 300px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
 }
