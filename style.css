@@ -9,13 +9,14 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  /* align-items: flex-start;
-  justify-content: flex-start; */
+  margin-top: 50px;
 }
 
 .sub-container {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .navbar-brand {
@@ -67,7 +68,8 @@ p {
   font-size: 17px;
   /* margin-left: 150px;
   margin-top: 110px; */
-  width: 40%;
+  /* width: 40%; */
+  max-width: 525px;
 }
 
 .contact {
@@ -157,6 +159,7 @@ hr {
   .profile-img {
     height: 300px;
     width: 300px;
+    margin-bottom: 40px;
     /* margin: 0 auto; */
   }
 }
