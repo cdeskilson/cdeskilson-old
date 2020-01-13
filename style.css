@@ -73,6 +73,11 @@ p {
 }
 
 .contact {
+  max-width: 525px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
   /* margin-left: 150px; */
   font-size: 15px;
 }
@@ -152,6 +157,9 @@ hr {
   }
 
   .contact {
+    width: 300px !important;
+    margin: auto !important;
+    /* margin-left: 100px; */
     /* margin-left: 68px;
     margin-top: 600px; */
   }
